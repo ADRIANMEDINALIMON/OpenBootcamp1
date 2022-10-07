@@ -8,12 +8,12 @@ public class Main {
     	SmartPhone ifon = new SmartPhone("Apo", "ifon300", 22, 3000, true, true, 5, false);
     	
     	System.out.println(ifon.modelo);
-    	System.out.println(ifon.toString());
+    	System.out.println(ifon);
     	
     	SmartWatch relojPro = new SmartWatch("Apo", "RelojPro", 23, 2000, false, false, true);
     	
-    	System.out.println(ifon.modelo);
-    	System.out.println(ifon.toString());
+    	System.out.println(relojPro.modelo);
+    	System.out.println(relojPro);
     	
     }
 }

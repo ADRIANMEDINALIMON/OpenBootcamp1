@@ -21,5 +21,14 @@ public class SmartDevice {
         this.precio = precio;
         this.IP68 = IP68;
         this.llamadas = llamadas;
+        
+        
+        
     }
+
+	@Override
+	public String toString() {
+		return "SmartDevice [fabricante=" + fabricante + ", modelo=" + modelo + ", year=" + year + ", precio=" + precio
+				+ ", IP68=" + IP68 + ", llamadas=" + llamadas + "]";
+	}
 }
